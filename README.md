@@ -36,6 +36,8 @@ docker run -d --name seerrbridge --restart unless-stopped -p 3777:3777 -p 8777:8
 
 **View logs:** `docker logs -f seerrbridge` | **Stop:** `docker stop seerrbridge && docker rm seerrbridge`
 
+> Prefer not to self-host? A managed SeerrBridge instance is available via [ElfHosted](https://store.elfhosted.com/product-category/personal-stacks/?utm_source=github&utm_medium=readme&utm_campaign=seerrbridge-readme) as part of their personal-stacks, preconfigured alongside Seerr, Overseerr, or Jellyseerr to fulfill requests via Real-Debrid (7-day trial).
+
 ---
 
 <details>
